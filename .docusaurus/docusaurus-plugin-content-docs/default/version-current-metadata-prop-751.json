@@ -11,9 +11,15 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "ParticleDAO",
         "href": "/docs/intro",
         "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Next",
+        "href": "/docs/intro copy",
+        "docId": "intro copy"
       },
       {
         "type": "category",
@@ -86,8 +92,14 @@
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "ParticleDAO",
+      "description": "...",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro copy": {
+      "id": "intro copy",
+      "title": "Next",
+      "description": "...",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

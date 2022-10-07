@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Buy',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We source and acquire fine art masterpieces using the superpower of DAOs and Web3 tooling, and tokenomics.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Share',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We provide unprecedented access and experiences built around these masterpieces using NFTs, VR, and the Metaverse.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Govern',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We control and decide, as a community, where these masterpieces go and how this art is experienced for the betterment of the public and artists.
       </>
     ),
   },

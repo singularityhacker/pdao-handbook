@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ParticleDAO Handbook',
+  tagline: 'Safekeeping and governing humanities\' great works of art.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/singularityhacker/pdao-handbook',
         },
         blog: {
           showReadingTime: true,
@@ -53,74 +53,89 @@ const config = {
     ],
   ],
 
+
+
+
+
   themeConfig:
+
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        //title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          //src: 'img/logo.svg',
+          src: 'img/pdao-dark.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        // items: [
+        //   {
+        //     type: 'doc',
+        //     docId: 'intro',
+        //     position: 'left',
+        //     label: 'Tutorial',
+        //   },
+        //   {to: '/blog', label: 'Blog', position: 'left'},
+        //   {
+        //     href: 'https://github.com/facebook/docusaurus',
+        //     label: 'GitHub',
+        //     position: 'right',
+        //   },
+        // ],
       },
+
+
+colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+
+
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Tutorial',
+        //         to: '/docs/intro',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'ParticleDAO',
+        //     items: [
+        //       {
+        //         label: 'Stack Overflow',
+        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //       },
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://discord.gg/SV55eKnp',
+        //       },
+        //       {
+        //         label: 'DAO Twitter',
+        //         href: 'https://twitter.com/particledao_xyz',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'ParticleHQ',
+        //     items: [
+        //       {
+        //         label: 'Particle HQ Website',
+        //         href: 'https://www.particlecollection.com/',
+        //       },
+        //       {
+        //         label: 'Particle HQ Twitter',
+        //         href: 'https://twitter.com/Collectparticle',
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `Copyright © ${new Date().getFullYear()} ParticleDAO`,
       },
       prism: {
         theme: lightCodeTheme,

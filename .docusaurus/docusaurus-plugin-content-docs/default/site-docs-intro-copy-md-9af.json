@@ -1,0 +1,27 @@
+{
+  "unversionedId": "intro copy",
+  "id": "intro copy",
+  "title": "Next",
+  "description": "...",
+  "source": "@site/docs/intro copy.md",
+  "sourceDirName": ".",
+  "slug": "/intro copy",
+  "permalink": "/docs/intro copy",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/intro copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ParticleDAO",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}
