@@ -1,0 +1,27 @@
+{
+  "unversionedId": "values",
+  "id": "values",
+  "title": "Values",
+  "description": "1. Representing the Community’s interest in democratized and distributed access, participation, responsible stewardship, and a heartfelt connection with art",
+  "source": "@site/docs/values.md",
+  "sourceDirName": ".",
+  "slug": "/values",
+  "permalink": "/docs/values",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/values.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision",
+    "permalink": "/docs/vision"
+  },
+  "next": {
+    "title": "How it Works",
+    "permalink": "/docs/how-it-works"
+  }
+}

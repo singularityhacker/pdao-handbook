@@ -1,0 +1,27 @@
+{
+  "unversionedId": "onboarding",
+  "id": "onboarding",
+  "title": "Onboarding",
+  "description": "[under construction]",
+  "source": "@site/docs/onboarding.md",
+  "sourceDirName": ".",
+  "slug": "/onboarding",
+  "permalink": "/docs/onboarding",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/onboarding.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How it Works",
+    "permalink": "/docs/how-it-works"
+  },
+  "next": {
+    "title": "Membership",
+    "permalink": "/docs/membership"
+  }
+}

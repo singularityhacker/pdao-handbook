@@ -1,0 +1,27 @@
+{
+  "unversionedId": "vision",
+  "id": "vision",
+  "title": "Vision",
+  "description": "Our vision is to leverage blockchain and NFT technology to radically change how people own, collect, experience, and ultimately enjoy art.",
+  "source": "@site/docs/vision.md",
+  "sourceDirName": ".",
+  "slug": "/vision",
+  "permalink": "/docs/vision",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/vision.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mission",
+    "permalink": "/docs/mission"
+  },
+  "next": {
+    "title": "Values",
+    "permalink": "/docs/values"
+  }
+}

@@ -20,10 +20,37 @@
           "contentPathLocalized": "/Users/conderj/pDAO-handbook/pdao-handbook/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "how-it-works",
+              "id": "how-it-works",
+              "title": "How it Works",
+              "description": "Particle leverages its team to source some of the world’s great works of art and enables the Particle community to use its collective purchasing power to add them to its collection. Every piece of art is ‘particalized’ into a subdivision of unique NFTs called Particles –representing minority ownership in the works in question. The physical works are then transferred to the Particle Foundation, a non-profit public trust and physical museum whose purpose is to maintain, preserve, and display the collection on behalf of the Particle community.",
+              "source": "@site/docs/how-it-works.md",
+              "sourceDirName": ".",
+              "slug": "/how-it-works",
+              "permalink": "/docs/how-it-works",
+              "draft": false,
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/how-it-works.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Values",
+                "permalink": "/docs/values"
+              },
+              "next": {
+                "title": "Onboarding",
+                "permalink": "/docs/onboarding"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "ParticleDAO",
-              "description": "...",
+              "description": "ParticleDAO is the first permissionless collector DAO in history. The Particle ecosystem has untied the Gordian knot of decentralized ownership. ParticleDAO makes anyone anywhere a collector. Particle brings unprecedented evolution and innovation in ownership, curation, and custody.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -38,21 +65,44 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Next",
-                "permalink": "/docs/intro copy"
+                "title": "Mission",
+                "permalink": "/docs/mission"
               }
             },
             {
-              "unversionedId": "intro copy",
-              "id": "intro copy",
-              "title": "Next",
-              "description": "...",
-              "source": "@site/docs/intro copy.md",
+              "unversionedId": "membership",
+              "id": "membership",
+              "title": "Membership",
+              "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
+              "source": "@site/docs/membership.md",
               "sourceDirName": ".",
-              "slug": "/intro copy",
-              "permalink": "/docs/intro copy",
+              "slug": "/membership",
+              "permalink": "/docs/membership",
               "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/intro copy.md",
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/membership.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Onboarding",
+                "permalink": "/docs/onboarding"
+              }
+            },
+            {
+              "unversionedId": "mission",
+              "id": "mission",
+              "title": "Mission",
+              "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
+              "source": "@site/docs/mission.md",
+              "sourceDirName": ".",
+              "slug": "/mission",
+              "permalink": "/docs/mission",
+              "draft": false,
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/mission.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -65,21 +115,21 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "title": "Vision",
+                "permalink": "/docs/vision"
               }
             },
             {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
+              "unversionedId": "onboarding",
+              "id": "onboarding",
+              "title": "Onboarding",
+              "description": "[under construction]",
+              "source": "@site/docs/onboarding.md",
+              "sourceDirName": ".",
+              "slug": "/onboarding",
+              "permalink": "/docs/onboarding",
               "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/onboarding.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -88,133 +138,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "title": "How it Works",
+                "permalink": "/docs/how-it-works"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "Membership",
+                "permalink": "/docs/membership"
               }
             },
             {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "unversionedId": "values",
+              "id": "values",
+              "title": "Values",
+              "description": "1. Representing the Community’s interest in democratized and distributed access, participation, responsible stewardship, and a heartfelt connection with art",
+              "source": "@site/docs/values.md",
+              "sourceDirName": ".",
+              "slug": "/values",
+              "permalink": "/docs/values",
               "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/values.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -223,62 +165,39 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+                "title": "Vision",
+                "permalink": "/docs/vision"
               },
               "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
+                "title": "How it Works",
+                "permalink": "/docs/how-it-works"
               }
             },
             {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "unversionedId": "vision",
+              "id": "vision",
+              "title": "Vision",
+              "description": "Our vision is to leverage blockchain and NFT technology to radically change how people own, collect, experience, and ultimately enjoy art.",
+              "source": "@site/docs/vision.md",
+              "sourceDirName": ".",
+              "slug": "/vision",
+              "permalink": "/docs/vision",
               "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/vision.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "Mission",
+                "permalink": "/docs/mission"
               },
               "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Values",
+                "permalink": "/docs/values"
               }
             }
           ],
@@ -291,66 +210,27 @@
               },
               {
                 "type": "doc",
-                "id": "intro copy"
+                "id": "mission"
               },
               {
-                "type": "category",
-                "label": "Tutorial - Basics",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
-                }
+                "type": "doc",
+                "id": "vision"
               },
               {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
-                }
+                "type": "doc",
+                "id": "values"
+              },
+              {
+                "type": "doc",
+                "id": "how-it-works"
+              },
+              {
+                "type": "doc",
+                "id": "onboarding"
+              },
+              {
+                "type": "doc",
+                "id": "membership"
               }
             ]
           }

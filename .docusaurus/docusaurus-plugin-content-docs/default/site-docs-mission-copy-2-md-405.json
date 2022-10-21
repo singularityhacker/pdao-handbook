@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mission copy 2",
+  "id": "mission copy 2",
+  "title": "Mission",
+  "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
+  "source": "@site/docs/mission copy 2.md",
+  "sourceDirName": ".",
+  "slug": "/mission copy 2",
+  "permalink": "/docs/mission copy 2",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/mission copy 2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ParticleDAO",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Mission",
+    "permalink": "/docs/mission copy 3"
+  }
+}

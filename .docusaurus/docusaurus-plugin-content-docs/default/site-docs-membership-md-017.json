@@ -1,0 +1,23 @@
+{
+  "unversionedId": "membership",
+  "id": "membership",
+  "title": "Membership",
+  "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
+  "source": "@site/docs/membership.md",
+  "sourceDirName": ".",
+  "slug": "/membership",
+  "permalink": "/docs/membership",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/membership.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Onboarding",
+    "permalink": "/docs/onboarding"
+  }
+}

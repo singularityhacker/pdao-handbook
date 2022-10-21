@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-it-works",
+  "id": "how-it-works",
+  "title": "How it Works",
+  "description": "Particle leverages its team to source some of the world’s great works of art and enables the Particle community to use its collective purchasing power to add them to its collection. Every piece of art is ‘particalized’ into a subdivision of unique NFTs called Particles –representing minority ownership in the works in question. The physical works are then transferred to the Particle Foundation, a non-profit public trust and physical museum whose purpose is to maintain, preserve, and display the collection on behalf of the Particle community.",
+  "source": "@site/docs/how-it-works.md",
+  "sourceDirName": ".",
+  "slug": "/how-it-works",
+  "permalink": "/docs/how-it-works",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/how-it-works.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Values",
+    "permalink": "/docs/values"
+  },
+  "next": {
+    "title": "Onboarding",
+    "permalink": "/docs/onboarding"
+  }
+}

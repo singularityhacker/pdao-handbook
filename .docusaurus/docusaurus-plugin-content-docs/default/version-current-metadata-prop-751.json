@@ -17,137 +17,83 @@
       },
       {
         "type": "link",
-        "label": "Next",
-        "href": "/docs/intro copy",
-        "docId": "intro copy"
+        "label": "Mission",
+        "href": "/docs/mission",
+        "docId": "mission"
       },
       {
-        "type": "category",
-        "label": "Tutorial - Basics",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
-          }
-        ],
-        "href": "/docs/category/tutorial---basics"
+        "type": "link",
+        "label": "Vision",
+        "href": "/docs/vision",
+        "docId": "vision"
       },
       {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
+        "type": "link",
+        "label": "Values",
+        "href": "/docs/values",
+        "docId": "values"
+      },
+      {
+        "type": "link",
+        "label": "How it Works",
+        "href": "/docs/how-it-works",
+        "docId": "how-it-works"
+      },
+      {
+        "type": "link",
+        "label": "Onboarding",
+        "href": "/docs/onboarding",
+        "docId": "onboarding"
+      },
+      {
+        "type": "link",
+        "label": "Membership",
+        "href": "/docs/membership",
+        "docId": "membership"
       }
     ]
   },
   "docs": {
+    "how-it-works": {
+      "id": "how-it-works",
+      "title": "How it Works",
+      "description": "Particle leverages its team to source some of the world’s great works of art and enables the Particle community to use its collective purchasing power to add them to its collection. Every piece of art is ‘particalized’ into a subdivision of unique NFTs called Particles –representing minority ownership in the works in question. The physical works are then transferred to the Particle Foundation, a non-profit public trust and physical museum whose purpose is to maintain, preserve, and display the collection on behalf of the Particle community.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "ParticleDAO",
-      "description": "...",
+      "description": "ParticleDAO is the first permissionless collector DAO in history. The Particle ecosystem has untied the Gordian knot of decentralized ownership. ParticleDAO makes anyone anywhere a collector. Particle brings unprecedented evolution and innovation in ownership, curation, and custody.",
       "sidebar": "tutorialSidebar"
     },
-    "intro copy": {
-      "id": "intro copy",
-      "title": "Next",
-      "description": "...",
+    "membership": {
+      "id": "membership",
+      "title": "Membership",
+      "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+    "mission": {
+      "id": "mission",
+      "title": "Mission",
+      "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "onboarding": {
+      "id": "onboarding",
+      "title": "Onboarding",
+      "description": "[under construction]",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
+    "values": {
+      "id": "values",
+      "title": "Values",
+      "description": "1. Representing the Community’s interest in democratized and distributed access, participation, responsible stewardship, and a heartfelt connection with art",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+    "vision": {
+      "id": "vision",
+      "title": "Vision",
+      "description": "Our vision is to leverage blockchain and NFT technology to radically change how people own, collect, experience, and ultimately enjoy art.",
       "sidebar": "tutorialSidebar"
     }
   }

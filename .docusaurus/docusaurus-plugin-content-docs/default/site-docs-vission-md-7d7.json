@@ -1,0 +1,27 @@
+{
+  "unversionedId": "vission",
+  "id": "vission",
+  "title": "Mission",
+  "description": "Our mission is to acquire, safe keep, govern, and share humanity’s great works of art.",
+  "source": "@site/docs/vission.md",
+  "sourceDirName": ".",
+  "slug": "/vission",
+  "permalink": "/docs/vission",
+  "draft": false,
+  "editUrl": "https://github.com/singularityhacker/pdao-handbook/docs/vission.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}
